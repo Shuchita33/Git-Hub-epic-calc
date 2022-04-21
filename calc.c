@@ -1,12 +1,13 @@
 #include<stdio.h>
 int main()
 {
-int a,b,op,c;
+int a,b,c;
+int op;
 printf("Enter two number\n");
 scanf("%d%d",&a,&b);
 
 printf("Enter the operator");
-scanf("%d",&op);
+scanf("%c",&op);
 
 switch(op)
 {
